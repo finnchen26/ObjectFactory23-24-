@@ -17,6 +17,34 @@ public class Ponies {
         size = pSize;
         name = pName;
         color = pColor;
+
+        describePony();
+
+        if(color.equals("pink")){
+            System.out.println("I am PINK!");
+        }
+        else {
+            System.out.println("I am NOT PINK!");
+        }
+
+    }
+
+    public Ponies() { //overloading: same name for methods of constructors, but different parameters (line 22 vs line 12)
+        System.out.println("made a new pony!");
+        size = 22.09;
+        name = "fly";
+        color = "purple";
+        isUnicorn = true;
+        isPegasus = false;
+        describePony();
+
+        if(color.equals("pink")){
+            System.out.println("I am PINK!");
+        }
+        else {
+            System.out.println("I am NOT PINK!");
+        }
+
     }
 
     public void describePony(){ //void = return type
