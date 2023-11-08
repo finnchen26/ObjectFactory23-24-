@@ -47,6 +47,8 @@ public class Ponies {
 
     }
 
+
+
     public void describePony(){ //void = return type
         System.out.println("this is pony " + name + " they are the color " + color + " with a size of " + size + ". It is " + isUnicorn + " that the pony is a Unicorn. It is " + isPegasus + " that the pony is a Pegasus.");
     }
